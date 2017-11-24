@@ -1,1 +1,1 @@
-var saladRecipe = new Object(romaine lettuce: '2 cups');
+var recipes = {Salad: 'romaine lettuce'};
