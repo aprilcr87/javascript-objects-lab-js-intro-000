@@ -1,4 +1,4 @@
-var recipes = {Salad: 'romaine lettuce'};
+var recipes = {Salad: 'romaine lettuce', Ingredients: 'Carrots, Onions'};
 
 function updateObjectWithKeyAndValue(object, key, value){
   object[key] = value;
