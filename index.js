@@ -21,3 +21,9 @@ function deleteFromObjectByKey(object, key){
   return delete recipes.sides;
 }
 deleteFromObjectByKey();
+
+function destructivelyDeleteFromObjectByKey(object, key){
+  recipes.Salad = 'Iceberg lettuce';
+  return recipes;
+}
+destructivelyDeleteFromObjectByKey();
