@@ -12,7 +12,7 @@ function updateObjectWithKeyAndValue(object, key, value){
 updateObjectWithKeyAndValue(Toppings, Cheese, '1/2 cup');
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
-  object.key = value;
-  return object;
+  recipes.Sides = 'Cranberries';
+  return recipes;
 }
-destructivelyUpdateObjectWithKeyAndValue(recipes, Sides, 'Cranberries');
+destructivelyUpdateObjectWithKeyAndValue();
