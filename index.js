@@ -29,7 +29,7 @@ function destructivelyDeleteFromObjectByKey(object, key){
 destructivelyDeleteFromObjectByKey();
 
 function destructivelyDeleteFromObjectByKey(object, key){
-  delete Object.key;
+  delete object[key];
   return object;
 }
 destructivelyDeleteFromObjectByKey(recipes, Ingredients);
