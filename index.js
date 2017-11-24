@@ -5,3 +5,8 @@ function updateObjectWithKeyAndValue(object, key, value){
   return object;
 }
 updateObjectWithKeyAndValue(recipes, Tomatoes, '1 cup');
+
+function updateObjectWithKeyAndValue(object, key, value){
+  return object.assign({}, object, {[key]: value});
+}
+updateObjectWithKeyAndValue(Toppings, Cheese, '1/2 cup');
