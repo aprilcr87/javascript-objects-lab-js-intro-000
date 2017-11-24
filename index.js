@@ -1,7 +1,7 @@
 var recipes = {Salad: 'romaine lettuce'};
 
 function updateObjectWithKeyAndValue(object, key, value){
-  object[key]= value;
+  object[key] = value;
   return object;
 }
 updateObjectWithKeyAndValue(recipes, Tomatoes, '1 cup');
@@ -12,7 +12,7 @@ function updateObjectWithKeyAndValue(object, key, value){
 updateObjectWithKeyAndValue(Toppings, Cheese, '1/2 cup');
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
-  recipes.Sides = 'Cranberries';
-  return recipes;
+  object[key] = value;
+  return object;
 }
-destructivelyUpdateObjectWithKeyAndValue();
+destructivelyUpdateObjectWithKeyAndValue(recipes, Sides, 'Cranberries');
