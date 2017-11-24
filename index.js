@@ -27,3 +27,9 @@ function destructivelyDeleteFromObjectByKey(object, key){
   return recipes;
 }
 destructivelyDeleteFromObjectByKey();
+
+function destructivelyDeleteFromObjectByKey(object, key){
+  Object.assign({}, recipes, {Salad: 'Iceberg lettuce'});
+  return recipes;
+}
+destructivelyDeleteFromObjectByKey();
