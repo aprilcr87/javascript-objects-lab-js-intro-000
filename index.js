@@ -29,7 +29,7 @@ function destructivelyDeleteFromObjectByKey(object, key){
 destructivelyDeleteFromObjectByKey();
 
 function destructivelyDeleteFromObjectByKey(object, key){
-  Object.assign({}, recipes, {Salad: 'Iceberg lettuce'});
-  return recipes;
+  delete Object.key;
+  return object;
 }
-destructivelyDeleteFromObjectByKey();
+destructivelyDeleteFromObjectByKey(recipes, Ingredients);
